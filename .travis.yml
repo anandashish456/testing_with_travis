@@ -1,0 +1,6 @@
+language: python
+python: 3.6
+install:
+  - "pip install pytest"
+  - "pip install requests"
+script: python -m pytest src/tests
